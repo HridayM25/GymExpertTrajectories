@@ -1,6 +1,9 @@
 # Expert Trajectories for Gym Environments
 Contains expert trajectories tailored for state-only imitation learning tasks in Gym environments. 
 
+### Current Status 
+I have completed the collection for the `Cartpole-v1` environment. I will update the others soon.
+
 ## What's State-Only Imitation Learning?
 State-only imitation learning is all about mimicking the behavior of an expert using only the observations of the environment's states. It's like learning to dance by watching someone else's moves without knowing the exact steps/actions they are taking.
 
