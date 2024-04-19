@@ -6,6 +6,7 @@ State-only imitation learning is all about mimicking the behavior of an expert u
 
 ## What You'll Find Here
 Trajectories: Dive into our collection of expert trajectories depicted solely by the states encountered.
+
 Scripts : Contains scripts used to collect these expert trajectories, can be used for changing parameters according to your own needs. 
 
 ## How to Use 
