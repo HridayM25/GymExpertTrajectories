@@ -7,6 +7,8 @@ State-only imitation learning is all about mimicking the behavior of an expert u
 ## How to Use 
 In the `trajectories` directory, you will find the trajectories. Use `np.load` to use the trajectories for SOIL.
 
+I have also provided the scripts used for collection in the `scripts` directory. You can change the parameters to collect more trajectories or change the reward threshold or the algorithm used.
+
 ## Methods of Collection 
 
 | Environment | Algorithm   | Details   | Trajectories Collected |
