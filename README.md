@@ -14,5 +14,5 @@ I have also provided the scripts used for collection in the `scripts` directory.
 | Environment | Algorithm   | Details   | Trajectories Collected |
 | :---:   | :---: | :---: | :---:|
 | `CartPole-v1` | PPO   | I have collected trajectories which yielded a minimum reward of 475. This can be found in the official documentation of the environment.   | 1000|
-| `Pendulum-v1`  | DDPG | Pendulum is an unsolved environment. Hence the approach I have taken is first collect 1e6 trajectories of the trained agent. I have then taken the values that lie greater than `mean + 2 * standard_deviation` of the rewards. I have sampled those trajectories only. | 22|
+| `Pendulum-v1`  | DDPG | Pendulum is an unsolved environment. Hence the approach I have taken is first collect 1e6 trajectories of the trained agent. I have then taken the values that lie greater than `mean + standard_deviation` of the rewards. I have sampled those trajectories only. | 22|
 | `MountainCarContinuous-v0` | DDPG   | I have collected trajectories which yielded a minimum reward of -110.   | 1000|
